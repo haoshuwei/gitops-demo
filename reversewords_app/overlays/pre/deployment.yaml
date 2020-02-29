@@ -9,6 +9,7 @@ spec:
     spec:
       containers:
       - name: reverse-words
+        image: registry.cn-hangzhou.aliyuncs.com/haoshuwei24/reversewords:v0.0.3
         env:
         - name: RELEASE
           value: "Preproduction release"
